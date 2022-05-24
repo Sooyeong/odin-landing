@@ -1,17 +1,25 @@
-body{
+html{
+    margin: 0 auto;
+}
 
+
+body{
     display:flex;
     flex-direction:column;
-    
-    margin: 0;
+    font-family:'Roboto';
+    margin: 0 auto;
     justify-content:space-between;
+    align-items:space-between;
 
 }
 
 
+
 .header{
+
     padding:50px;
     padding-top:10px;
+
     display:flex;
     justify-content:space-between;
     background-color: #1F2937;
@@ -136,6 +144,8 @@ body{
     color:white;
     padding :60px;
     justify-content:space-between;
+    border-radius:25px;
+    align-items:center;
 }
 
 
@@ -145,4 +155,11 @@ body{
     justify-content:center;
     background-color: #1F2937;
     color:white;
+}
+
+
+button{
+    padding: 15px ;
+    width: 100px;
+    height: 50px;
 }
